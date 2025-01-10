@@ -62,7 +62,6 @@ public class LoginSteps {
         softAssert.assertTrue(loginPage.passwordField.getValue().isEmpty(), Constants.PASSWORD_FIELD_MESSAGE);
 
         softAssert.assertAll();
-        System.out.println("amit sheikmneba meore konflikti");
         return this;
     }
 }

@@ -33,7 +33,7 @@ public class CommonSteps {
     public void validateNoResultsMessage() {
 
        commonPage.notFound.shouldBe(visible);
-        System.out.println("konflikti 3");
+
     }
 
 }

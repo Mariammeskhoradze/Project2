@@ -36,7 +36,7 @@ public class InventorySteps {
     @Step("log out")
     public InventorySteps logOut() {
        inventoryPage.logOutButton.click();
-        System.out.println("amit sheikmneba konflikti");
+      
         return this;
     }
 
