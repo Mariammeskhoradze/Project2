@@ -36,6 +36,7 @@ public class InventorySteps {
     @Step("log out")
     public InventorySteps logOut() {
        inventoryPage.logOutButton.click();
+        System.out.println("projectdev branch");
         return this;
     }
 
