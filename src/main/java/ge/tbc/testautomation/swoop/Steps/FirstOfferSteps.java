@@ -20,6 +20,7 @@ public class FirstOfferSteps {
         firstOfferPage.map.shouldBe(visible);
         softAssert.assertTrue(firstOfferPage.map.isDisplayed());
         softAssert.assertAll();
+        System.out.println("konflikti4");
         return this;
     }
 }
